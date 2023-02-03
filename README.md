@@ -255,12 +255,27 @@ Hopefully it was a success and you should see the osTicket image in the browser.
 - Click "Install Now"
 
 And hopefully your help desk installation is successful
+</p>
+<br />
+<hr>
+<p>
+<h2>Step 17: Final File Clean Up</h2> 
+</p>
+<p>
+- Delete C:\inetpub\wwwroot\osTicket\setup
+- Set Permissions to "Read" only at c:\inetpub/wwwroot/osTicket/include/lost-config.php
+</p>
+<br />
+
+<hr>
+
 
 Login page: http://localhost/osTicket/scp/login.php
 End User osTicket URL: http://localhost/osTicket/
 
 
-</p>
-<br />
+
+
 <hr>
+
 
